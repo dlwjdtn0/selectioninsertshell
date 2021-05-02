@@ -304,6 +304,8 @@ public class Shell1 {
 - 지금까지 알려진 가장 좋은 성능을 보인 간격은 1, 4, 10, 23, 57, 132, 301, 701, 1750 (Marcin Ciura)이다.
 
 다음은 쉘 정렬 Shell1의 거꾸로된 배열 수행시간이고 삽입 정렬의 거꾸로된 배열 Insert1과 비교를 하면 Shell1의 수행 시간이 더 빠른 것을 알 수 있다.
+
 Shell1 수행 시간: ![10](https://user-images.githubusercontent.com/81748368/116823937-63b8e980-abc2-11eb-8ddf-233b7c6c15d4.PNG)
+
 Insert1 수행 시간: ![7](https://user-images.githubusercontent.com/81748368/116824299-6a486080-abc4-11eb-976e-88b320862d2b.PNG)
 
