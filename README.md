@@ -138,7 +138,9 @@ public class Selection1 {
 
 선택 정렬의 시간복잡도는 n(n-1)/2 x O(1) = O(n^2)이다.
 거꾸로 된 배열 Selection1과 어느 정도 정렬되어 있고 4개정도 순서가 섞인 배열 Selection2의 수행 시간을 비교하면 다음과 같다.
+
 ![3](https://user-images.githubusercontent.com/81748368/116822534-51d34880-abba-11eb-9258-b1e4c97e2cc6.PNG)
+
 ![4](https://user-images.githubusercontent.com/81748368/116822535-526bdf00-abba-11eb-9e62-057b2b15dca7.PNG)
 
  Selection1과  Selection2과 수행시간은 각각 563ms, 579ms로 크게 차이가 나지 않는다는 것을 알 수 있다.
@@ -230,7 +232,9 @@ public class Insert2 {
  삽입 정렬의 시간복잡도는 n(n-1)/2 x O(1) = O(n^2)이고 최선일 때는 O(n)인데 이는 입력이 이미 정렬이 되어 있을 때의 시간복잡도이다. 
  입력된 배열이 얼마나 정렬이 되어 있는지에 따라 수행시간이 달라진다. 정렬이 더 되어 있을수록 다른 알고리즘보다 수행시간이 더 빠른 점이 특징이다.
  다음은 거꾸로된 배열 Insert1과 어느정도 정렬되어 있고 몇 개의 배열 순서가 섞인 배열 Insert2의 수행시간이고 어느 정도 정렬이 되어 있는 배열이 수행시간이 더 빠름을 알 수 있다.
+ 
 ![7](https://user-images.githubusercontent.com/81748368/116823240-50a41a80-abbe-11eb-91bd-7304155b0b09.PNG)
+
 ![8](https://user-images.githubusercontent.com/81748368/116823242-50a41a80-abbe-11eb-928a-c66ae66a6b59.PNG)
 
 --------------------------------------------------------------------------
