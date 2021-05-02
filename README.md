@@ -7,6 +7,7 @@
 ## 선택 정렬
 
 선택 정렬은 전체 배열에서 가장 작은 값을 선택하여 배열의 0번과 바꾸고, 0번을 제외한 나머지 값에서 이와 같은 방법을 반복하여 정렬한다.
+또한 선택 정렬은 오름차순으로 정렬, 내림차순으로 정렬, 랜덤으로 정렬에서 항상 일정한 시간복잡도를 갖는 민감하지 않은 (input insensitive)알고리즘이다.
 
 ### 선택 정렬 코드
 
@@ -62,6 +63,13 @@ public class Selection1 {
         }
     }
  }
+ 
+ 
+ C:\Users\dlwjd_yxko2zc\.jdks\openjdk-16\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\lib\idea_rt.jar=51396:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\dlwjd_yxko2zc\IdeaProjects\selection\out\production\selection Selection1
+Selection1: 
+60 61 62 63 64 65 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 99 100 
+Process finished with exit code 0
+
  
  
  
@@ -120,5 +128,12 @@ public class Selection1 {
     }
 
 }
+
+
+
+### 시간복잡도
+
+선택 정렬의 시간복잡도는 n(n-1)/2 x O(1) = O(n^2)으로 거꾸로 된 배열 Selection1과 어느 정도 정렬되어 있고 4개정도 순서가 섞인 배열 Selection2의 수행 시간을 비교하면 다음과 같다.
+
 
 
