@@ -423,5 +423,6 @@ Insert1 수행 시간: ![in1](https://user-images.githubusercontent.com/81748368
 
 수행 시간 비교는 다음과 같다.
 
-![12](https://user-images.githubusercontent.com/81748368/116965551-108d8680-ace9-11eb-99d2-43cd0e13d94e.png)
+![2222](https://user-images.githubusercontent.com/81748368/116971695-ea6de380-acf4-11eb-8dd2-d59ecdf5c47c.png)
+
 
