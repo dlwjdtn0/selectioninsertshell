@@ -99,11 +99,11 @@ public class Bubble2
 
 ### 시간복잡도와 수행 시간
 
-버블 정렬이 시간복잡도는 n(n-1)/2 x O(1) = O(n^2) x O(1)= O(n^2)이고 수행시간은 Bubble1과 Bubble2 각각 1sec 702ms, 1sec 765ms로 크게 차이가 나지는 않았다.
+버블 정렬이 시간복잡도는 n(n-1)/2 x O(1) = O(n^2) x O(1)= O(n^2)이고 수행시간은 Bubble1과 Bubble2 각각 1sec 691ms, 1sec 688ms로 크게 차이가 나지는 않았다.
 
-Bubble1 수행 시간: ![15](https://user-images.githubusercontent.com/81748368/116968716-ff944380-acef-11eb-864c-ecf2faecd124.PNG)
+Bubble1 수행 시간: ![bu1](https://user-images.githubusercontent.com/81748368/116970780-87c81800-acf3-11eb-9644-b280407c297b.PNG)
 
-Bubble2 수행 시간: ![16](https://user-images.githubusercontent.com/81748368/116968718-002cda00-acf0-11eb-8c41-1a983bba5800.PNG)
+Bubble2 수행 시간: ![bu2](https://user-images.githubusercontent.com/81748368/116970782-8860ae80-acf3-11eb-95cc-8c1b16f0d260.PNG)
 
 ------------------------------------------------------------------------------
 
