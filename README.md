@@ -99,13 +99,13 @@ public class Bubble2
 
 ### 시간복잡도와 수행 시간
 
-버블 정렬이 시간복잡도는 n(n-1)/2 x O(1) = O(n^2) x O(1)= O(n^2)이고 수행시간은 Bubble1과 Bubble2 각각 702ms, 765ms로 크게 차이가 나지는 않았다.
+버블 정렬이 시간복잡도는 n(n-1)/2 x O(1) = O(n^2) x O(1)= O(n^2)이고 수행시간은 Bubble1과 Bubble2 각각 1sec 702ms, 1sec 765ms로 크게 차이가 나지는 않았다.
 
 Bubble1 수행 시간: ![15](https://user-images.githubusercontent.com/81748368/116968716-ff944380-acef-11eb-864c-ecf2faecd124.PNG)
 
 Bubble2 수행 시간: ![16](https://user-images.githubusercontent.com/81748368/116968718-002cda00-acf0-11eb-8c41-1a983bba5800.PNG)
 
-------------------------------------------
+------------------------------------------------------------------------------
 
 ## 선택 정렬 (Selection Sort)
 
@@ -242,11 +242,11 @@ public class Selection1 {
 선택 정렬의 시간복잡도는 n(n-1)/2 x O(1) = O(n^2)이다. 최선과 최악의 시간복잡도도 O(n^2)로 평균 시간복잡도와 같다.
 거꾸로 된 배열 Selection1과 어느 정도 정렬되어 있고 4개정도 순서가 섞인 배열 Selection2의 수행 시간을 비교하면 다음과 같다.
 
-Selection1 수행시간: ![3](https://user-images.githubusercontent.com/81748368/116822534-51d34880-abba-11eb-9258-b1e4c97e2cc6.PNG)
+Selection1 수행시간: ![se1](https://user-images.githubusercontent.com/81748368/116969606-84339180-acf1-11eb-96fc-89ea739a1ece.PNG)
 
-Selection2 수행 시간: ![4](https://user-images.githubusercontent.com/81748368/116822535-526bdf00-abba-11eb-9e62-057b2b15dca7.PNG)
+Selection2 수행 시간: ![se2](https://user-images.githubusercontent.com/81748368/116969610-8564be80-acf1-11eb-963e-d00e0931ef31.PNG)
 
- Selection1과  Selection2과 수행시간은 각각 563ms, 579ms로 크게 차이가 나지 않는다는 것을 알 수 있다.
+ Selection1과  Selection2과 수행시간은 각각 1sec 813ms, 1sec 750ms로 크게 차이가 나지 않는다는 것을 알 수 있다.
  
  ---------------------------------------------------------
  
@@ -336,9 +336,9 @@ public class Insert2 {
  입력된 배열이 얼마나 정렬이 되어 있는지에 따라 수행시간이 달라진다. 정렬이 더 되어 있을수록 다른 알고리즘보다 수행시간이 더 빠른 점이 특징이다.
  다음은 거꾸로된 배열 Insert1과 어느정도 정렬되어 있고 몇 개의 배열 순서가 섞인 배열 Insert2의 수행시간이고 어느 정도 정렬이 되어 있는 배열이 수행시간이 더 빠름을 알 수 있다.
  
-Insert1 수행 시간: ![7](https://user-images.githubusercontent.com/81748368/116824299-6a486080-abc4-11eb-976e-88b320862d2b.PNG)
+Insert1 수행 시간: ![in1](https://user-images.githubusercontent.com/81748368/116970115-58fd7200-acf2-11eb-8660-72feeb75fac5.PNG)
 
-Insert2 수행 시간: ![8](https://user-images.githubusercontent.com/81748368/116823242-50a41a80-abbe-11eb-928a-c66ae66a6b59.PNG)
+Insert2 수행 시간: ![in2](https://user-images.githubusercontent.com/81748368/116970118-5a2e9f00-acf2-11eb-8803-e6a1200cc646.PNG)
 
 --------------------------------------------------------------------------
 
@@ -410,9 +410,9 @@ public class Shell1 {
 
 다음은 쉘 정렬 Shell1의 거꾸로된 배열 수행시간이고 삽입 정렬의 거꾸로된 배열 Insert1과 비교를 하면 Shell1의 수행 시간이 더 빠른 것을 알 수 있다.
 
-Shell1 수행 시간: ![10](https://user-images.githubusercontent.com/81748368/116823937-63b8e980-abc2-11eb-8ddf-233b7c6c15d4.PNG)
+Shell1 수행 시간: ![111](https://user-images.githubusercontent.com/81748368/116969328-0ff8ee00-acf1-11eb-827d-6a928c327f1f.PNG)
 
-Insert1 수행 시간: ![7](https://user-images.githubusercontent.com/81748368/116824299-6a486080-abc4-11eb-976e-88b320862d2b.PNG)
+Insert1 수행 시간: ![in1](https://user-images.githubusercontent.com/81748368/116970115-58fd7200-acf2-11eb-8660-72feeb75fac5.PNG)
 
 --------------------------------------
 
