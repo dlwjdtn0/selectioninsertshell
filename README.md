@@ -240,14 +240,12 @@ public class Selection1 {
 ### 시간복잡도와 수행 시간
 
 선택 정렬의 시간복잡도는 n(n-1)/2 x O(1) = O(n^2)이다. 최선과 최악의 시간복잡도도 O(n^2)로 평균 시간복잡도와 같다.
-거꾸로 된 배열 Selection1과 어느 정도 정렬되어 있고 4개정도 순서가 섞인 배열 Selection2의 수행 시간을 비교하면 다음과 같다.
+거꾸로 된 배열 Selection1과 어느 정도 정렬되어 있고 4개정도 순서가 섞인 배열 Selection2의 수행 시간을 비교하면 Selection1과 Selection2과 수행시간은 각각 1sec 813ms, 1sec 750ms로 크게 차이가 나지 않는다는 것을 알 수 있다.
+
 
 Selection1 수행시간: ![se1](https://user-images.githubusercontent.com/81748368/116969606-84339180-acf1-11eb-96fc-89ea739a1ece.PNG)
 
 Selection2 수행 시간: ![se2](https://user-images.githubusercontent.com/81748368/116969610-8564be80-acf1-11eb-963e-d00e0931ef31.PNG)
-
-
- Selection1과  Selection2과 수행시간은 각각 1sec 813ms, 1sec 750ms로 크게 차이가 나지 않는다는 것을 알 수 있다.
  
  ---------------------------------------------------------
  
