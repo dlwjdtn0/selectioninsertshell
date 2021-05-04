@@ -3,6 +3,109 @@
 201902949 이정수
 
 ------------------------------------------
+## 버블 정렬 (Bubble Sort)
+
+버블 정렬은 배열 내의 이웃한 인덱스를 비교하면서 작은 값을 앞으로 이동시키고 큰 숫자는 뒤로 보내 이를 반복해서 정렬을 하는 알고리즘이다. 원소가 이동을 할 때 상하로 보면 거품이 위로 올라오는 듯한 모습을 보여서 버블 정렬이라고 한다. 시간복잡도는 느리지만 코드가 단순해서 자주 쓰이고 있다.
+
+### 버블 정렬 코드
+
+코드에 대한 설명은 주석에 있다.
+
+#### 거꾸로 된 배열 Bubble1
+
+public class Bubble1 {
+    //입력: 크기가 A.length인 배열 A
+    //출력: 정렬된 배열 A
+    public static void buble(int[] A)
+    {
+        int n = A.length;
+        for(int i = 0; i < n-1; i++) //n-1번 수행
+        {
+            for(int j = 1 ; j < n - i ; j++) //배열의 인접한 원소 비교
+            {
+                if(A[j-1] > A[j])   // 참이면 서로 자리를 바꿈, 거짓이면 다음 i값으로 넘어감
+                {
+                    //자리 바꿈
+                    int temp = A[j];
+                    A[j] = A[j-1];
+                    A[j-1] = temp;
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+
+        // 거꾸로 된 배열
+        int[] A = {100,99, 98,97,96,95,94,93,92,91,90,89,88,87, 86, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 65, 64, 63, 62, 61, 60};
+
+        // 정렬된 배열 출력
+        Bubble1.buble(A);
+        int n = A.length;
+        for (int i = 0; i < n; i++)
+        {
+            System.out.print(A[i] + " ");
+        }
+    }
+}
+
+#### 실행 결과
+
+![13](https://user-images.githubusercontent.com/81748368/116968721-00c57080-acf0-11eb-8fe4-937a8ac029b7.PNG)
+
+#### 어느 정도 정렬된 배열 Bubble2
+
+public class Bubble2
+        //입력: 크기가 A.length인 배열 A
+        //출력: 정렬된 배열 A
+{
+        public static void buble2(int[] A)
+        {
+            int n = A.length;
+            for(int i = 0; i < n-1; i++) //n-1번 수행
+            {
+                for(int j = 1 ; j < n - i ; j++)  //배열의 인접한 원소 비교
+                {
+                    if(A[j-1] > A[j])  // 참이면 서로 자리를 바꿈, 거짓이면 다음 i값으로 넘어감
+                    {
+                        //자리 바꿈
+                        int temp = A[j];
+                        A[j] = A[j-1];
+                        A[j-1] = temp;
+                    }
+                }
+            }
+        }
+
+        public static void main(String[] args) {
+
+            // 어느 정도 정렬이 된 배열
+            int[] A = {60,61,63,64,98,65,66,67,68,69,62,70,71,72,73,74,76,77,78,79,80,81,82,83,75,84,85,87,88,89,90,91,92,93,94,95,96,86,97,99,100};
+
+
+            // 정렬된 배열 출력
+            Bubble2.buble2(A);
+            int n = A.length;
+            for (int i = 0; i < n; i++)
+            {
+                System.out.print(A[i] + " ");
+            }
+        }
+}
+
+#### 실행 결과
+
+![14](https://user-images.githubusercontent.com/81748368/116968720-00c57080-acf0-11eb-8f13-03de2fcb19f4.PNG)
+
+### 시간복잡도와 수행 시간
+
+버블 정렬이 시간복잡도는 n(n-1)/2 x O(1) = O(n^2) x O(1)= O(n^2)이고 수행시간은 Bubble1과 Bubble2 각각 702ms, 765ms로 크게 차이가 나지는 않았다.
+
+Bubble1 수행 시간: ![15](https://user-images.githubusercontent.com/81748368/116968716-ff944380-acef-11eb-864c-ecf2faecd124.PNG)
+
+Bubble2 수행 시간: ![16](https://user-images.githubusercontent.com/81748368/116968718-002cda00-acf0-11eb-8c41-1a983bba5800.PNG)
+
+------------------------------------------
 
 ## 선택 정렬 (Selection Sort)
 
@@ -13,7 +116,7 @@
 
 코드에 대한 설명은 주석에 있다.
 
-#### 거꾸로 된 배열
+#### 거꾸로 된 배열 Selection1
 
 public class Selection1 {
 
@@ -72,7 +175,7 @@ public class Selection1 {
 
  
  
- #### 어느정도 정렬되어 있고 몇 개의 배열 순서가 섞인 배열
+ #### 어느정도 정렬되어 있고 몇 개의 배열 순서가 섞인 배열 Selection2
  
  public class Selection2 {
     public static void selection(int[] a)
@@ -155,7 +258,7 @@ Selection2 수행 시간: ![4](https://user-images.githubusercontent.com/8174836
  ### 삽입 정렬 코드
  코드 설명을 주석에 있다.
  
- #### 거꾸로된 배열
+ #### 거꾸로된 배열 Insert1
  
  public class Insert1 {
 
@@ -190,7 +293,7 @@ Selection2 수행 시간: ![4](https://user-images.githubusercontent.com/8174836
 
 ![5](https://user-images.githubusercontent.com/81748368/116823237-4f72ed80-abbe-11eb-8cbe-47e8ab0c51d6.PNG)
 
-#### 어느정도 정렬되어 있고 몇 개의 배열 순서가 섞인 배열
+#### 어느정도 정렬되어 있고 몇 개의 배열 순서가 섞인 배열 Insert2
 
 public class Insert2 {
 
@@ -250,6 +353,8 @@ Insert2 수행 시간: ![8](https://user-images.githubusercontent.com/81748368/1
 ### 알고리즘 코드
 
 코드에 대한 설명은 주석에 있다.
+
+#### 거꾸로 된 배열 Shell1
 
 public class Shell1 {
     public static void main(String[] args) {
