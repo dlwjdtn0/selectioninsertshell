@@ -246,6 +246,7 @@ Selection1 수행시간: ![se1](https://user-images.githubusercontent.com/817483
 
 Selection2 수행 시간: ![se2](https://user-images.githubusercontent.com/81748368/116969610-8564be80-acf1-11eb-963e-d00e0931ef31.PNG)
 
+
  Selection1과  Selection2과 수행시간은 각각 1sec 813ms, 1sec 750ms로 크게 차이가 나지 않는다는 것을 알 수 있다.
  
  ---------------------------------------------------------
