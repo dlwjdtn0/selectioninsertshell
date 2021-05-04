@@ -309,3 +309,15 @@ Shell1 수행 시간: ![10](https://user-images.githubusercontent.com/81748368/1
 
 Insert1 수행 시간: ![7](https://user-images.githubusercontent.com/81748368/116824299-6a486080-abc4-11eb-976e-88b320862d2b.PNG)
 
+--------------------------------------
+
+## 선택, 삽입, 쉘 정렬의 시간복잡도와 수행 시간 비교
+
+시간복잡도 비교는 다음과 같다.
+
+![11](https://user-images.githubusercontent.com/81748368/116965468-db813400-ace8-11eb-87d1-1ac678d97647.PNG)
+
+수행 시간 비교는 다음과 같다.
+
+![12](https://user-images.githubusercontent.com/81748368/116965551-108d8680-ace9-11eb-99d2-43cd0e13d94e.png)
+
